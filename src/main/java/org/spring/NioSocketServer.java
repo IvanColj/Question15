@@ -26,7 +26,6 @@ public class NioSocketServer {
                 System.out.println("Клиент подключился");
 
                 handleClient(clientChannel);
-
                 // Завершаем работу сервера после обработки клиента
                 System.out.println("Клиент отключился. Завершаем сервер.");
             } catch (Exception e) {
